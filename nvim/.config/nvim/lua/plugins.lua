@@ -21,4 +21,6 @@ return require('packer').startup(function()
   use 'hrsh7th/nvim-cmp'
   use 'nvim-lualine/lualine.nvim'
   use 'windwp/nvim-autopairs'
+  use 'theprimeagen/harpoon'
+  use 'nvim-lua/plenary.nvim'
 end)
