@@ -12,6 +12,9 @@ return require('packer').startup(function()
     requires = { 'kyazdani42/nvim-web-devicons' }
   }
 
+  use 'othree/html5.vim'
+  use 'evanleck/vim-svelte'
+  use 'tovarishfin/vim-solidity'
   use 'navarasu/onedark.nvim'
   use 'neovim/nvim-lspconfig'
   use 'hrsh7th/cmp-nvim-lsp'
@@ -23,4 +26,7 @@ return require('packer').startup(function()
   use 'windwp/nvim-autopairs'
   use 'theprimeagen/harpoon'
   use 'nvim-lua/plenary.nvim'
+  use 'elixir-editors/vim-elixir'
+  use 'heavenshell/vim-jsdoc'
+  use 'fatih/vim-go'
 end)
