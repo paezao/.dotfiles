@@ -43,3 +43,4 @@ vim.api.nvim_command([[
 vim.api.nvim_command([[
     au BufRead,BufNewFile *.gohtml set filetype=gohtmltmpl
 ]])
+
