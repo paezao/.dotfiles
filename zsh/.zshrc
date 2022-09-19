@@ -75,7 +75,6 @@ plugins=(git zsh-autosuggestions vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="$PATH:$(go env GOPATH)/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
