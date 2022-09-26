@@ -75,6 +75,7 @@ plugins=(git zsh-autosuggestions vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export PATH="$(brew --prefix)/bin:$PATH"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
