@@ -30,4 +30,5 @@ return require('packer').startup(function()
   use 'elixir-editors/vim-elixir'
   use 'heavenshell/vim-jsdoc'
   use 'fatih/vim-go'
+  use 'rust-lang/rust.vim'
 end)
