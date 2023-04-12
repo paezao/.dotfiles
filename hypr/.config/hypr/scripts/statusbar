@@ -1,9 +1,9 @@
 #!/bin/bash
 
 CONFIG="$HOME/.config/hypr/modules/waybar/config"
-CONFIG="$HOME/.config/hypr/modules/waybar/style.css"
+STYLE="$HOME/.config/hypr/modules/waybar/style.css"
 
 if [[ ! $(pidof waybar) ]]; then
-	# waybar --bar main-bar --log-level error --config ${CONFIG} --style ${STYLE}
-	waybar --bar main-bar --log-level error
+	waybar --bar main-bar --log-level error --config ${CONFIG} --style ${STYLE}
+	# waybar --bar main-bar --log-level error
 fi
