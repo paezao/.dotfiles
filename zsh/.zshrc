@@ -75,7 +75,7 @@ plugins=(git zsh-autosuggestions vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export PATH="$(brew --prefix)/bin:$PATH"
+#export PATH="$(brew --prefix)/bin:$PATH"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -102,6 +102,6 @@ export PATH="$(brew --prefix)/bin:$PATH"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 alias vim-config="nvim ~/.config/nvim/"
-export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+#export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+#. /opt/homebrew/opt/asdf/libexec/asdf.sh
